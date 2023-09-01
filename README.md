@@ -6,4 +6,4 @@ Atividade 01 - Página Web - https://github.com/Joao-neto-01/LMS/blob/main/Ativi
 
 Atividade 02 - Tags Semântica - https://github.com/Joao-neto-01/LMS/blob/main/Atividades/Atividade02_TagsSemanticas.html
 
-Atividade 03 - Mario  - https://github.com/Joao-neto-01/LMS/tree/main/Atividades/Atividade03_Mario
+Atividade 03 - Mario - https://github.com/Joao-neto-01/LMS/tree/main/Atividades/Atividade03_Mario
