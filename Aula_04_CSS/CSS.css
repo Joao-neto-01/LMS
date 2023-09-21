@@ -5,4 +5,25 @@ body{
 h2{
     color:violet;
     margin-left: 100px;
+    font-size: 40px;
 }
+
+p{
+    text-align: center;
+    color:red
+}
+
+#para1{
+    text-align: center;
+    color:blueviolet
+}
+
+.center{
+    text-align: center;
+    color: Orange;
+}
+
+.large{
+    font-size: 300% 
+}
+

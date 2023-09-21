@@ -1,0 +1,45 @@
+CSS
+Uma folha de estilo CSS consiste em conjunto de regras 
+Seletor = H1, H2, H3, H4, H5, H6: eles sempre apontam para elemntos do HTML
+Declarações = Color: blue; font-size:12px : cada declaração corresponde a uma
+uma propriedade do CSS, na qual tem usa propriedade e logo em seguida o valor.
+
+H1 {color:blue; donte-size:12px;}
+
+Seletores CSS
+São usados para encontar ou selecionar os elementos do HTML que você
+deseja estilizar.
+
+Seletores simples: com base em nome, id, Id
+
+Exemplo de seletor como base no nome
+P{
+    text-align: center;
+    color: red
+}
+
+Exemplo de seletor por id: o seletor de id usa o atributo de um elemnto HTML
+para selecionar um elemento expecífico
+Para selecionar um Id de um elemento HTML escreva um # seguido do id do elemento.
+#para1{
+    text-align: center
+    color: pink
+}
+
+Exemplo de seleto por Classe
+Todos os elementos HTML que estiverem ligado a class=center terão a cor alterado
+para a cor laranja;
+.center {
+    text-align: center;
+    color: Orange
+}
+
+O seletor universal CSS * seleciona todos os elemntos HTML da pág.
+
+Agrupar vários seletores também é possível para não deixar o código muito sujo
+ao inves de colocar 3 seletores com as mesmas propriedade você pode juntar os 
+3 em um unico seletor;
+h1, h2, p {
+    text-align: center;
+    color: red
+}

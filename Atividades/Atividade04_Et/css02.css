@@ -1,0 +1,81 @@
+/*<-----------------------Menu lateral fixo---------------> */
+body {
+    font-family: "Lato", sans-serif;
+}
+  
+.sidenav {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+/*<------------------------------------>*/
+
+
+
+/*<-----------------------Artigos---------------> */
+#ET_Bilu {
+    background-color: #77DD77
+}
+#ET_Mexicano {
+    background-color: #77DD00
+}
+
+h1, h3, p {
+    padding-left: 400px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    border: 4px solid #8DA15C;
+    padding-left: 410px;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid green;
+    padding-left: 410px;
+}
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imagem_bilu {
+    text-align: center;
+    padding-left: 400px;
+}
+.imagem_mexicana {
+    text-align: center;
+    padding-left: 400px;
+}
+img {
+    width: 400px;
+}
+/*<------------------------------------>*/
+
+
+
+/*<-----------------------Rodapé---------------> */
+footer {
+    text-align: center;
+    padding-left: 400px;
+}
+/*<------------------------------------>*/
