@@ -7,7 +7,9 @@ h2{
     margin-left: 100px;
     font-size: 40px;
 }
-
+/*text-align --> Essa linha de codigo altera o 
+alinhamento do codigo
+outras opções são Syntax: start | end | left | right | center | justify | match-parent */
 p{
     text-align: center;
     color:red
@@ -19,11 +21,11 @@ p{
 }
 
 .center{
-    text-align: center;
+    text-align: justify;
     color: Orange;
 }
 
 .large{
-    font-size: 300% 
+    font-size: 150% 
 }
 

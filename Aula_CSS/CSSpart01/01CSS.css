@@ -1,0 +1,19 @@
+h3 {
+    color:blueviolet;
+    margin-top: 100px;
+}
+
+.classe-externa {
+    color:chocolate
+}
+
+#meu-id{
+    font-size: larger;
+    color: gold;
+}
+/*Quando tempo varias coisas dentro de outro podemos referencia elas
+escrevendo um ponto seguido de outro*/
+div > p {
+    font-size: small;
+    color: red;
+}

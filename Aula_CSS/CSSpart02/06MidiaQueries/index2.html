@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .conteiner{
+                /*O objetivo do overflow é fazer com que conteúdos muito grandes 
+                possam caber dentro de uma página através do uso de barras de 
+                rolagem.*/
+                overflow: auto;
+            }
+
+            #conteudo{
+                margin-left: 5px;
+            }
+
+            .menuesquerdo{
+                float: none;
+                width: auto;
+
+            }
+        
+            .menuitem{
+                margin: 0;
+                padding: 0;
+                display: flex;
+            }
+
+            .item {
+                background-color: beige;
+                border: 1px solid;
+                border-radius: 5px;
+                list-style-type: none;
+                margin: 4px;
+                padding: 4px;
+            }
+
+            @media screen and (min-width: 400px) {
+                .menuesquerdo{
+                    width: 200px;
+                    float: left
+                }
+                #conteudo{
+                    margin-left: 220px;
+                }
+                .menuitem{
+                    display: block;
+                }
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <!--Div com todas as coisas-->
+        <div class="container">
+            <!--MENU LATERAL ESQUERDO/SUPERIOR-->
+            <div class="menuesquerdo">
+                <ul class="menuitem">
+                    <li class="item">Menu item 1</li>
+                    <li class="item">Menu item 2</li>
+                    <li class="item">Menu item 3</li>
+                    <li class="item">Menu item 4</li>
+                </ul>
+            </div>
+            <!--CONTEÚDO-->
+            <div id="conteudo">
+                <p>
+                    O gato ou gato doméstico é um mamífero carnívoro ,
+                    da família dos felídeos, muito popular como animal 
+                    de estimação. Ocupando o topo da cadeia alimentar, 
+                    é predador natural de diversos animais, como 
+                    roedores, pássaros, lagartixas e alguns insetos.
+                </p>
+
+            </div>
+        </div>
+
+
+    </body>
+</html>

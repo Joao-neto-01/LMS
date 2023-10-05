@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            .navbar{
+                background-color: bisque;
+            }
+
+            .menu_responsivo{
+                background-color: rgb(199, 124, 13);
+
+            }
+            .menu_responsivo a{
+                padding-left: 2%;
+            }
+
+            #conteudo{
+                background-color: brown;
+
+            }
+
+            @media screen and (min-width:400px){
+                .menu_responsivo{
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+
+                    height: 200px;
+                    width: 200px;
+
+                    display: flex;
+                    
+                }  
+
+                .navbar, #conteudo{
+                    margin-left: 205px;
+                }
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="#">Link 1</a>
+            <a href="#">Link 1</a>
+            <a href="#">Link 1</a>
+            <a href="#">Link 1</a>
+        </nav>
+        <div class="menu_responsivo"> 
+            <a href="#">Link A</a>
+            <a href="#">Link B</a>
+            <a href="#">Link C</a>
+            <a href="#">Link D</a>
+        </div>
+
+        <div id="conteudo">
+            Macaco aranha, macaco aranha, Macaco aranha, macaco aranha
+            Macaco aranha, macaco aranha, Macaco aranha, macaco aranha
+            Macaco aranha, macaco aranha, Macaco aranha, macaco aranha
+
+        </div>
+    </body>
+</html>
